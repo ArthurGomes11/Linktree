@@ -55,8 +55,7 @@ Para configurar e executar este projeto em sua máquina local, siga os passos ab
 1.  **Clone o repositório:**
 
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd linktree-dinamico # ou o nome da pasta do seu projeto
+    git clone https://github.com/ArthurGomes11/Linktree.git
     ```
 
 2.  **Instale as dependências:**

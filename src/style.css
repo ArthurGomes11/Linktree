@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+.container{
+  width: 400px;
+  height: 50%;
+}
+
+.container-imagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.img{
+  height: 120px;
+  width: 120px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  
+}
+
+.container-botao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.botao{
+  width: 90%;
+  height: 60px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 2px 1px ;
+}
+
+.botao i{
+  fill: white;
+  margin-left: 10px;
+}
+
+.botao p{
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.botao:hover{
+  cursor: pointer;
+  width: 92%;
+  transform: scale(1.05) ;
+  transition: 400ms;
+}
+
+.container-qrcode{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.qrcode-img{
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+}
+a {
+  text-decoration: none;
+  color: transparent;
+  color: inherit;
+}
